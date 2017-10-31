@@ -1,0 +1,8 @@
+var gulp = require('gulp');
+var less = require('gulp-less');
+var cssmin = require('gulp-minify-css');//压缩css
+var notify = require('gulp-notify');//提示出现错误
+var plumber = require('gulp-plumber');//出现异常并不终止watch事件
+var sourcemaps = require('gulp-sourcemaps');//生成sourcemap文件，方便修改
+
+更多详情http://www.ydcss.com/archives/34
